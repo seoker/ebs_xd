@@ -1,0 +1,73 @@
+body,td {
+	background-color:#000;
+	color:#eee;
+	font-family: verdana, sans-serif, Arial, 新細明體;
+	font-size:13px;
+	text-align:center
+}
+div,table  {margin-right: auto; margin-left: auto}
+a {color:#aac; font-weight:bold; text-decoration:none}
+a:hover {color:#ccf; text-decoration:none}
+form {margin:0px; display:inline;}
+.box {
+	margin-top:10px;
+	width:350px;
+	text-align:center;
+	border:1px #888 solid;
+	display:block;
+	cursor:default;
+	background:url(./image/table_bg.gif) #000;
+}
+.line{margin:5px 0px 5px 8px; display:block; font-size:15px}
+.num{color:#dc143c; font-weight:bold}
+body,select {
+	scrollbar-base-color: #333333;
+	scrollbar-arrow-color: #999999;
+	scrollbar-3dlight-color: #333333;
+	scrollbar-darkshadow-color: #333333;
+	scrollbar-face-color: #333333;
+	scrollbar-highlight-color: #444444;
+	scrollbar-shadow-color: #333333;
+	scrollbar-track-color: #222222;
+}
+td{background:transparent}
+.inputfield{
+	font-family:verdana,sans-serif,Arial,新細明體;
+	font-size:13px;
+	background-color:#333;
+	color:#eee;
+	border:1px #777 dashed;
+	width:150px;
+	height:22px;
+}
+.selectfield{
+	font-family:verdana,sans-serif,Arial,新細明體;
+	font-size:13px;
+	background-color:#333;
+	color:#eee;
+	border:1px #eee solid;
+}
+.inputfield2{
+	font-family:verdana,sans-serif,Arial,新細明體;
+	font-size:12px;
+	background-color:#333;
+	color:#eee;
+	border:1px #777 solid;
+	height:22px;
+}
+.submit {
+	font-family:verdana,sans-serif,Arial,新細明體;
+	font-size:13px;
+	background-color:#333;
+	color:#eee;
+	padding:5px;
+	border:1px #777 solid;
+}
+.submitH {
+	font-family:verdana,sans-serif,Arial,新細明體;
+	font-size:13px;
+	background-color:#666;
+	color:#eee;
+	padding:5px;
+	border:1px #777 solid;
+}

@@ -1,0 +1,42 @@
+//於合成倉庫取得目前裝備物資訊
+<div style="border:solid 1 #cccccc;padding:4;margin-bottom:4;"><b>([^\n<\/>]+)<\/b>&nbsp;Lv.([0-9]+)\/exp.([0-9]+)<br>
+//於合成倉庫取得預備裝備物資訊
+預備<input type=radio name=ireru value=([0-9]+)>\n<b>([^\n<\/>]+)<\/b>&nbsp;Lv.([0-9]+)\/exp.([0-9]+)<br>
+//於合成倉庫取得更換武器所需資訊
+<input type=hidden name=date value=([^\n<\/>]+)>\n<input type=hidden name=check value=([^\n<\/>]+)>\n<input type=hidden name=check8 value=([^\n<\/>]+)>\n<input type=hidden name=check9 value=([^\n<\/>]+)>
+//攻擊，取得timestamp
+<input type=hidden name="check" value="([0-9]+)">
+//驗證
+<input type=hidden name="check0"value="([0-9]+)">[\n\r]{1,2}<input type=hidden name="ctime" value="([0-9]+)">
+//戰鬥，取得雙方HP差
+cdplhp=Math.round\(\(([0-9]+)\-([0-9]+)\)\*0\.1\);[\r\n]{1,2}\t\tcdvshp=Math.round\(\(([0-9]+)\-([0-9]+)\)\*0\.1\);
+//鍛鍊，取得HP
+if\(([0-9]+) >= 2000000\)
+//鍛鍊，取得AP
+if\(([0-9]+) >= 50000\)
+//戰鬥，取得時間資訊
+<input type=hidden name="check" value="([0-9]+)">
+//線上參戰者
+<tr style="color:#ffffff;" bgcolor=black><td nowrap>[0-9]+<\/td><td nowrap><font color=yellow>([^\n<\/>]+)<\/td>
+//戰鬥，取得武器資訊
+<B>([^\n<\/>]+)\(Level.([0-9]+)\)<\/b>
+//戰鬥，取得攻擊資訊
+<B style="font-size:21px;color:#9acd32;">([0-9]+)<\/b> <B style="font-size:12px;color:#dc143c;">Attack<\/b> <B style="font-size:21px;color:#9acd32;">([0-9]+)<\/b> <B style="font-size:12px;color:#dc143c;">hit<\/b>
+//戰鬥，取得ＡＰ
+AP:-([0-9\.]+)\([0-9\.]+\) 體:[0-9]+
+//戰鬥，取得ＨＰ
+<td style="font-size:14px;">\/<B>([0-9]+)<\/b><\/td>
+//戰鬥，取得經驗
+得到 <B style="font-size:12px;color:#dc143c;">([0-9]+)<\/b> 的經驗值 金錢 ＄<B style="font-size:12px;color:#dc143c;">([0-9]+)<\/b>  招式經驗值 <B style="font-size:12px;color:#dc143c;">([0-9]+)<\/b>
+//戰鬥，取得等級上升資訊
+&nbsp;&nbsp;&nbsp;<font color=#f7e957>([^\n<\/>]+)提升。<\/font><Br>
+//戰鬥，取得黃色資訊
+<div align=center><font color=#FFFF00 style="font-size:15px;"><B>([^\n]*)<\/b><\/font>
+//戰鬥，取得藍色資訊
+<div align=center><font color=#0066FF style="font-size:15px;"><B>([^\n]*)<\/b><\/font>
+//戰鬥，取得傷害值
+<B style="font-size:21px;color:#9acd32;">([0-9]+)<\/b><B style="font-size:12px;color:#dc143c;"> Damage<\/b>
+//戰鬥，取得對手 Miss
+<div align=center><font color=#6a5acd>Miss<\/font><Br>[\n\r\t]*<B style="font-size:12px;color:#dc143c;">AP:\-[0-9\.]+<\/b>
+//取得玩家名單
+<select name=aiteA .*>[\n\r]{1,4}<option value="">未選擇[\n\r]{1,2}((<option>[^<>]+)+)[\n\r]{1,2}<\/select>
